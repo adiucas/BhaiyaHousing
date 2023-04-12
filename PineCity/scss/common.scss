@@ -1,0 +1,144 @@
+$pc: #343C8E;
+$sc: #3AAA35;
+
+body{
+	position: relative;
+	min-height:100vh;
+}
+
+svg{
+	width:100%;
+	height: auto;
+}
+
+.st22,.st19{
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+.st3,.st95,.st82,.st121,.st230{
+	font-family:'Lato', sans-serif !important;
+}
+
+.modal-body {
+	background: $pc;
+}
+
+.close {
+	position: absolute;
+	right: -40px;
+	text-shadow: unset;
+	color:red;
+	line-height: unset;
+	width: 30px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius:30px;
+
+	&:hover{
+		color: red;
+	}
+}
+
+button.close{
+	background-color: #ffffff;
+	i{
+		font-size:1rem;
+	}
+}
+
+g[id^='BH_']{
+	cursor: pointer;
+}
+
+[id^='block_x5F_text']{
+	pointer-events:none;
+	opacity: 0.7;
+}
+
+.sold{
+	rect,path,polygon{
+		fill:red;
+	}
+	text{
+		fill:#ffffff;
+	}
+	rect+rect+path,rect+rect+path+path{
+		fill:#ffffff;
+	}
+}
+
+.hovered{
+	rect,path,polygon{
+		fill:$pc;
+	}
+	text{
+		fill:#ffffff;
+	}
+	rect+rect+path,rect+rect+path+path{
+		fill:#ffffff;
+	}
+}
+
+.popover-body {
+    color: #ffffff;
+    display: flex;
+    padding: unset;
+    flex-wrap:wrap;
+}
+
+.pop-content{
+	padding: (.5rem/2) (.75rem/2);
+	box-sizing: border-box;
+	flex-grow: 1;
+
+	&.road{
+		flex-grow:2;
+	}
+	&.size{
+		flex-grow:2;
+	}
+	&.facing,&.file-number,&.client-phone,&.plot-status,&.sell-date{
+		flex-grow: 1;
+	}
+	&.client-name,&.client-address{
+		flex-basis: 100%;
+	}
+}
+
+.pop-title{
+	font-weight: bold;
+}
+
+.pop-value{
+	padding: 2.5px 10px;
+	background: lighten($pc,15%);
+	border-radius: 5px;
+	min-height: 30px;
+}
+
+.footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: $pc;
+	padding: 10px 15px;
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	.right{
+		a{
+			text-decoration: none;
+			color: unset;
+		}
+		img{
+			margin-left: 5px;
+			height:30px;
+		}
+	}
+}
+

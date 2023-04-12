@@ -1,0 +1,41 @@
+$pc: #343C8E;
+$sc: #3AAA35;
+
+@media (min-width:768px){
+	.mapContainer{
+		width: 100%;
+		height:100vh;
+		overflow: hidden;
+	}
+}
+
+@media (max-width: 768px){
+	.mapContainer{
+		overflow: visible !important;
+	}
+
+	.close {
+		top: -40px;
+	    right: 0;
+	    opacity: 1;
+	}
+	.footer{
+		flex-direction:column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		background: $pc;
+		font-size: 14px;
+
+		.right{
+			margin-top: 5px;
+		}
+	}
+}
+
+@media (min-width: 576px){
+	.modal-dialog {
+	    min-width: 560px;
+	}
+}
+

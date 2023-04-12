@@ -1,0 +1,105 @@
+body {
+  position: relative;
+  min-height: 100vh; }
+
+svg {
+  width: 100%;
+  height: auto; }
+
+.st22, .st19 {
+  font-family: 'Montserrat', sans-serif !important; }
+
+.st3, .st95, .st82, .st121, .st230 {
+  font-family: 'Lato', sans-serif !important; }
+
+.modal-body {
+  background: #343C8E; }
+
+.close {
+  position: absolute;
+  right: -40px;
+  text-shadow: unset;
+  color: red;
+  line-height: unset;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px; }
+  .close:hover {
+    color: red; }
+
+button.close {
+  background-color: #ffffff; }
+  button.close i {
+    font-size: 1rem; }
+
+g[id^='BH_'] {
+  cursor: pointer; }
+
+[id^='block_x5F_text'] {
+  pointer-events: none;
+  opacity: 0.7; }
+
+.sold rect, .sold path, .sold polygon {
+  fill: red; }
+.sold text {
+  fill: #ffffff; }
+.sold rect + rect + path, .sold rect + rect + path + path {
+  fill: #ffffff; }
+
+.hovered rect, .hovered path, .hovered polygon {
+  fill: #343C8E; }
+.hovered text {
+  fill: #ffffff; }
+.hovered rect + rect + path, .hovered rect + rect + path + path {
+  fill: #ffffff; }
+
+.popover-body {
+  color: #ffffff;
+  display: flex;
+  padding: unset;
+  flex-wrap: wrap; }
+
+.pop-content {
+  padding: 0.25rem 0.375rem;
+  box-sizing: border-box;
+  flex-grow: 1; }
+  .pop-content.road {
+    flex-grow: 2; }
+  .pop-content.size {
+    flex-grow: 2; }
+  .pop-content.facing, .pop-content.file-number, .pop-content.client-phone, .pop-content.plot-status, .pop-content.sell-date {
+    flex-grow: 1; }
+  .pop-content.client-name, .pop-content.client-address {
+    flex-basis: 100%; }
+
+.pop-title {
+  font-weight: bold; }
+
+.pop-value {
+  padding: 2.5px 10px;
+  background: #505abf;
+  border-radius: 5px;
+  min-height: 30px; }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #343C8E;
+  padding: 10px 15px;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+  .footer .right a {
+    text-decoration: none;
+    color: unset; }
+  .footer .right img {
+    margin-left: 5px;
+    height: 30px; }
+
+/*# sourceMappingURL=common.css.map */

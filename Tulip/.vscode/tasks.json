@@ -4,9 +4,9 @@
         {
             "label": "Run SASS",
             "type": "shell",
-            "command": "sass --watch scss:css --no-cache",
+            "command": "sass --watch scss:css --sourcemap=none --no-cache --style=expanded",
             "windows": {
-                "command": "sass --watch scss:css"
+                "command": "sass --watch scss:css --sourcemap=none --no-cache --style=expanded"
             },
             "presentation": {
                 "reveal": "always",

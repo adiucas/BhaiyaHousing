@@ -2,15 +2,19 @@
   .mapContainer {
     width: 100%;
     height: 100vh;
-    overflow: hidden; } }
+    overflow: hidden;
+  }
+}
 @media (max-width: 768px) {
   .mapContainer {
-    overflow: visible !important; }
+    overflow: visible !important;
+  }
 
   .close {
     top: -40px;
     right: 0;
-    opacity: 1; }
+    opacity: 1;
+  }
 
   .footer {
     flex-direction: column;
@@ -18,11 +22,14 @@
     align-items: center;
     text-align: center;
     background: #343C8E;
-    font-size: 14px; }
-    .footer .right {
-      margin-top: 5px; } }
+    font-size: 14px;
+  }
+  .footer .right {
+    margin-top: 5px;
+  }
+}
 @media (min-width: 576px) {
   .modal-dialog {
-    min-width: 560px; } }
-
-/*# sourceMappingURL=commonRes.css.map */
+    min-width: 560px;
+  }
+}

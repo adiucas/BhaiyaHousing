@@ -4,8 +4,7 @@ body {
 }
 
 svg {
-  width: 60%;
-  height: auto;
+  height: 100%;
 }
 
 .modal-body {
